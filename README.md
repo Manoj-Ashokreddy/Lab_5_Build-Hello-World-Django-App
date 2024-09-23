@@ -15,21 +15,28 @@ Ensure you have the following installed on your machine:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Manoj-Ashokreddy/Lab_5_Build-Hello-World-Django-App.git
+   cd Lab_5_Build-Hello-World-Django-App
    ```
-
-2. **Install Django**:
+2. **Set up a Virtual Environment**:
+  
+   ```bash
+   python -m venv venv
+   source venv/bin.activate
+   ```
+   
+3. **Install Django**:
    If Django is not installed, run:
    ```bash
    pip install django
    ```
 
-3. **Run the Django Development Server**:
+4. **Run the Django Development Server**:
    Start the Django development server:
    ```bash
    python manage.py runserver
    ```
 
-4. **Access the Hello World Endpoint**:
+5. **Access the Hello World Endpoint**:
    - Open a browser and visit:  
      `http://localhost:8000/hello/`
    - The browser should display the following JSON response:
