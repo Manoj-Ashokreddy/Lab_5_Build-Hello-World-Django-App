@@ -20,8 +20,8 @@ Ensure you have the following installed on your machine:
 2. **Set up a Virtual Environment**:
   
    ```bash
-   python -m venv venv
-   source venv/bin.activate
+   python3 -m venv venv
+   source venv/bin/activate
    ```
    
 3. **Install Django**:
@@ -56,10 +56,5 @@ helloworld_project/
 ├── helloworld_project/
 │   ├── settings.py             # Project settings
 │   ├── urls.py                 # URL routing for the project
-```
+````
 
-### How to Access the Hello World JSON Response
-Visit the following URL after running the development server:
-- `http://localhost:8000/hello/`
-
-```
