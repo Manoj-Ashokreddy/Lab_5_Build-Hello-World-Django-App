@@ -26,7 +26,7 @@ Ensure you have the following installed on your machine:
 3. **Run the Django Development Server**:
    Start the Django development server:
    ```bash
-   python3 manage.py runserver
+   python manage.py runserver
    ```
 
 4. **Access the Hello World Endpoint**:
