@@ -43,18 +43,3 @@ Ensure you have the following installed on your machine:
      ```json
      {"Message": "Hello World!"}
      ```
-
-### Project Structure
-
-```
-helloworld_project/
-│
-├── helloworld_app/
-│   ├── migrations/
-│   ├── views.py                # Contains the view that returns the Hello World JSON message
-├── manage.py                   # Django project management script
-├── helloworld_project/
-│   ├── settings.py             # Project settings
-│   ├── urls.py                 # URL routing for the project
-````
-
